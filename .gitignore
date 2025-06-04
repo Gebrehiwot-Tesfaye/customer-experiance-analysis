@@ -1,0 +1,6 @@
+venv/
+bank_review_scraper.log
+*.csv
+data/
+.DS_Store
+Thumbs.db 
