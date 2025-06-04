@@ -1,0 +1,193 @@
+2025-06-04 22:09:06,008 - INFO - Starting the bank review scraping process
+2025-06-04 22:09:06,010 - INFO - Starting to scrape reviews for Commercial Bank of Ethiopia
+2025-06-04 22:09:06,512 - INFO - Successfully scraped 0 reviews for Commercial Bank of Ethiopia
+2025-06-04 22:09:06,513 - INFO - Starting to scrape reviews for Bank of Abyssinia
+2025-06-04 22:09:06,958 - INFO - Successfully scraped 0 reviews for Bank of Abyssinia
+2025-06-04 22:09:06,958 - INFO - Starting to scrape reviews for Dashen Bank
+2025-06-04 22:09:07,395 - INFO - Successfully scraped 0 reviews for Dashen Bank
+2025-06-04 22:11:50,310 - INFO - Starting the bank review scraping process
+2025-06-04 22:11:51,232 - ERROR - Error verifying app com.ethiomobile.cbe: App not found(404).
+2025-06-04 22:11:51,236 - ERROR - Could not verify app existence for Commercial Bank of Ethiopia
+2025-06-04 22:11:52,134 - ERROR - Error verifying app com.bankofabyssinia.boaapp: App not found(404).
+2025-06-04 22:11:52,137 - ERROR - Could not verify app existence for Bank of Abyssinia
+2025-06-04 22:11:52,978 - ERROR - Error verifying app com.mobin.dashenbank: App not found(404).
+2025-06-04 22:11:52,983 - ERROR - Could not verify app existence for Dashen Bank
+2025-06-04 22:11:52,984 - ERROR - No reviews were collected for any bank!
+2025-06-04 22:12:19,245 - INFO - Starting the bank review scraping process
+2025-06-04 22:12:20,137 - ERROR - Error verifying app com.ethiomobile.cbe: App not found(404).
+2025-06-04 22:12:20,139 - ERROR - Could not verify app existence for Commercial Bank of Ethiopia
+2025-06-04 22:12:20,859 - ERROR - Error verifying app com.bankofabyssinia.boaapp: App not found(404).
+2025-06-04 22:12:20,861 - ERROR - Could not verify app existence for Bank of Abyssinia
+2025-06-04 22:12:21,716 - ERROR - Error verifying app com.mobin.dashenbank: App not found(404).
+2025-06-04 22:12:21,719 - ERROR - Could not verify app existence for Dashen Bank
+2025-06-04 22:12:21,721 - ERROR - No reviews were collected for any bank!
+2025-06-04 22:22:38,669 - INFO - Starting the bank review scraping process
+2025-06-04 22:22:39,520 - ERROR - Error verifying app com.ethiomobile.cbe: App not found(404).
+2025-06-04 22:22:39,524 - ERROR - Could not verify app existence for Commercial Bank of Ethiopia
+2025-06-04 22:22:40,390 - ERROR - Error verifying app com.bankofabyssinia.boaapp: App not found(404).
+2025-06-04 22:22:40,395 - ERROR - Could not verify app existence for Bank of Abyssinia
+2025-06-04 22:22:41,309 - ERROR - Error verifying app com.mobin.dashenbank: App not found(404).
+2025-06-04 22:22:41,312 - ERROR - Could not verify app existence for Dashen Bank
+2025-06-04 22:22:41,312 - ERROR - No reviews were collected for any bank!
+2025-06-04 22:29:03,165 - INFO - Starting the bank review scraping process
+2025-06-04 22:29:04,864 - INFO - Found app: Commercial Bank of Ethiopia (Rating: 4.34)
+2025-06-04 22:29:04,864 - INFO - Attempting to scrape reviews for Commercial Bank of Ethiopia using package com.combanketh.mobilebanking
+2025-06-04 22:29:04,864 - INFO - Attempting to scrape reviews for Commercial Bank of Ethiopia with lang=en, country=et
+2025-06-04 22:29:04,864 - ERROR - Error scraping reviews for Commercial Bank of Ethiopia (en/et): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:29:04,864 - INFO - Retrying in 3 seconds... (Attempt 2/3)
+2025-06-04 22:29:07,875 - INFO - Attempting to scrape reviews for Commercial Bank of Ethiopia with lang=en, country=et
+2025-06-04 22:29:07,879 - ERROR - Error scraping reviews for Commercial Bank of Ethiopia (en/et): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:29:07,881 - INFO - Retrying in 3 seconds... (Attempt 3/3)
+2025-06-04 22:29:10,891 - INFO - Attempting to scrape reviews for Commercial Bank of Ethiopia with lang=en, country=et
+2025-06-04 22:29:10,893 - ERROR - Error scraping reviews for Commercial Bank of Ethiopia (en/et): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:29:13,906 - INFO - Attempting to scrape reviews for Commercial Bank of Ethiopia with lang=en, country=us
+2025-06-04 22:29:13,907 - ERROR - Error scraping reviews for Commercial Bank of Ethiopia (en/us): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:29:13,908 - INFO - Retrying in 3 seconds... (Attempt 2/3)
+2025-06-04 22:29:16,918 - INFO - Attempting to scrape reviews for Commercial Bank of Ethiopia with lang=en, country=us
+2025-06-04 22:29:16,920 - ERROR - Error scraping reviews for Commercial Bank of Ethiopia (en/us): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:29:16,921 - INFO - Retrying in 3 seconds... (Attempt 3/3)
+2025-06-04 22:29:19,922 - INFO - Attempting to scrape reviews for Commercial Bank of Ethiopia with lang=en, country=us
+2025-06-04 22:29:19,922 - ERROR - Error scraping reviews for Commercial Bank of Ethiopia (en/us): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:29:22,927 - INFO - Attempting to scrape reviews for Commercial Bank of Ethiopia with lang=en, country=uk
+2025-06-04 22:29:22,930 - ERROR - Error scraping reviews for Commercial Bank of Ethiopia (en/uk): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:29:22,933 - INFO - Retrying in 3 seconds... (Attempt 2/3)
+2025-06-04 22:29:25,947 - INFO - Attempting to scrape reviews for Commercial Bank of Ethiopia with lang=en, country=uk
+2025-06-04 22:29:25,947 - ERROR - Error scraping reviews for Commercial Bank of Ethiopia (en/uk): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:29:25,948 - INFO - Retrying in 3 seconds... (Attempt 3/3)
+2025-06-04 22:29:28,949 - INFO - Attempting to scrape reviews for Commercial Bank of Ethiopia with lang=en, country=uk
+2025-06-04 22:29:28,951 - ERROR - Error scraping reviews for Commercial Bank of Ethiopia (en/uk): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:29:31,959 - INFO - Attempting to scrape reviews for Commercial Bank of Ethiopia with lang=en, country=ca
+2025-06-04 22:29:31,961 - ERROR - Error scraping reviews for Commercial Bank of Ethiopia (en/ca): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:29:31,963 - INFO - Retrying in 3 seconds... (Attempt 2/3)
+2025-06-04 22:29:34,964 - INFO - Attempting to scrape reviews for Commercial Bank of Ethiopia with lang=en, country=ca
+2025-06-04 22:29:34,964 - ERROR - Error scraping reviews for Commercial Bank of Ethiopia (en/ca): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:29:34,967 - INFO - Retrying in 3 seconds... (Attempt 3/3)
+2025-06-04 22:29:37,983 - INFO - Attempting to scrape reviews for Commercial Bank of Ethiopia with lang=en, country=ca
+2025-06-04 22:29:37,983 - ERROR - Error scraping reviews for Commercial Bank of Ethiopia (en/ca): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:29:40,993 - INFO - Attempting to scrape reviews for Commercial Bank of Ethiopia with lang=am, country=et
+2025-06-04 22:29:40,994 - ERROR - Error scraping reviews for Commercial Bank of Ethiopia (am/et): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:29:40,995 - INFO - Retrying in 3 seconds... (Attempt 2/3)
+2025-06-04 22:29:43,997 - INFO - Attempting to scrape reviews for Commercial Bank of Ethiopia with lang=am, country=et
+2025-06-04 22:29:43,998 - ERROR - Error scraping reviews for Commercial Bank of Ethiopia (am/et): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:29:44,001 - INFO - Retrying in 3 seconds... (Attempt 3/3)
+2025-06-04 22:29:47,012 - INFO - Attempting to scrape reviews for Commercial Bank of Ethiopia with lang=am, country=et
+2025-06-04 22:29:47,012 - ERROR - Error scraping reviews for Commercial Bank of Ethiopia (am/et): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:29:50,024 - INFO - Attempting to scrape reviews for Commercial Bank of Ethiopia with lang=am, country=us
+2025-06-04 22:29:50,026 - ERROR - Error scraping reviews for Commercial Bank of Ethiopia (am/us): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:29:50,027 - INFO - Retrying in 3 seconds... (Attempt 2/3)
+2025-06-04 22:29:53,035 - INFO - Attempting to scrape reviews for Commercial Bank of Ethiopia with lang=am, country=us
+2025-06-04 22:29:53,036 - ERROR - Error scraping reviews for Commercial Bank of Ethiopia (am/us): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:29:53,037 - INFO - Retrying in 3 seconds... (Attempt 3/3)
+2025-06-04 22:29:56,054 - INFO - Attempting to scrape reviews for Commercial Bank of Ethiopia with lang=am, country=us
+2025-06-04 22:29:56,054 - ERROR - Error scraping reviews for Commercial Bank of Ethiopia (am/us): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:29:59,062 - INFO - Attempting to scrape reviews for Commercial Bank of Ethiopia with lang=am, country=uk
+2025-06-04 22:29:59,062 - ERROR - Error scraping reviews for Commercial Bank of Ethiopia (am/uk): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:29:59,062 - INFO - Retrying in 3 seconds... (Attempt 2/3)
+2025-06-04 22:30:02,069 - INFO - Attempting to scrape reviews for Commercial Bank of Ethiopia with lang=am, country=uk
+2025-06-04 22:30:02,070 - ERROR - Error scraping reviews for Commercial Bank of Ethiopia (am/uk): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:30:02,070 - INFO - Retrying in 3 seconds... (Attempt 3/3)
+2025-06-04 22:30:05,081 - INFO - Attempting to scrape reviews for Commercial Bank of Ethiopia with lang=am, country=uk
+2025-06-04 22:30:05,083 - ERROR - Error scraping reviews for Commercial Bank of Ethiopia (am/uk): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:30:08,091 - INFO - Attempting to scrape reviews for Commercial Bank of Ethiopia with lang=am, country=ca
+2025-06-04 22:30:08,091 - ERROR - Error scraping reviews for Commercial Bank of Ethiopia (am/ca): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:30:08,092 - INFO - Retrying in 3 seconds... (Attempt 2/3)
+2025-06-04 22:30:11,099 - INFO - Attempting to scrape reviews for Commercial Bank of Ethiopia with lang=am, country=ca
+2025-06-04 22:30:11,100 - ERROR - Error scraping reviews for Commercial Bank of Ethiopia (am/ca): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:30:11,102 - INFO - Retrying in 3 seconds... (Attempt 3/3)
+2025-06-04 22:30:14,109 - INFO - Attempting to scrape reviews for Commercial Bank of Ethiopia with lang=am, country=ca
+2025-06-04 22:30:14,112 - ERROR - Error scraping reviews for Commercial Bank of Ethiopia (am/ca): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:30:17,962 - ERROR - Error verifying app com.cbe.mobilebanking: App not found(404).
+2025-06-04 22:30:17,966 - WARNING - Package com.cbe.mobilebanking not found, trying next option...
+2025-06-04 22:30:19,196 - INFO - Found app: BoA Mobile (Rating: 2.73)
+2025-06-04 22:30:19,196 - INFO - Attempting to scrape reviews for Bank of Abyssinia using package com.boa.boaMobileBanking
+2025-06-04 22:30:19,196 - INFO - Attempting to scrape reviews for Bank of Abyssinia with lang=en, country=et
+2025-06-04 22:30:19,196 - ERROR - Error scraping reviews for Bank of Abyssinia (en/et): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:30:19,204 - INFO - Retrying in 3 seconds... (Attempt 2/3)
+2025-06-04 22:30:22,207 - INFO - Attempting to scrape reviews for Bank of Abyssinia with lang=en, country=et
+2025-06-04 22:30:22,208 - ERROR - Error scraping reviews for Bank of Abyssinia (en/et): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:30:22,211 - INFO - Retrying in 3 seconds... (Attempt 3/3)
+2025-06-04 22:30:25,221 - INFO - Attempting to scrape reviews for Bank of Abyssinia with lang=en, country=et
+2025-06-04 22:30:25,222 - ERROR - Error scraping reviews for Bank of Abyssinia (en/et): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:30:28,224 - INFO - Attempting to scrape reviews for Bank of Abyssinia with lang=en, country=us
+2025-06-04 22:30:28,224 - ERROR - Error scraping reviews for Bank of Abyssinia (en/us): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:30:28,226 - INFO - Retrying in 3 seconds... (Attempt 2/3)
+2025-06-04 22:30:31,232 - INFO - Attempting to scrape reviews for Bank of Abyssinia with lang=en, country=us
+2025-06-04 22:30:31,233 - ERROR - Error scraping reviews for Bank of Abyssinia (en/us): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:30:31,234 - INFO - Retrying in 3 seconds... (Attempt 3/3)
+2025-06-04 22:30:34,243 - INFO - Attempting to scrape reviews for Bank of Abyssinia with lang=en, country=us
+2025-06-04 22:30:34,244 - ERROR - Error scraping reviews for Bank of Abyssinia (en/us): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:30:37,256 - INFO - Attempting to scrape reviews for Bank of Abyssinia with lang=en, country=uk
+2025-06-04 22:30:37,258 - ERROR - Error scraping reviews for Bank of Abyssinia (en/uk): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:30:37,259 - INFO - Retrying in 3 seconds... (Attempt 2/3)
+2025-06-04 22:30:40,267 - INFO - Attempting to scrape reviews for Bank of Abyssinia with lang=en, country=uk
+2025-06-04 22:30:40,268 - ERROR - Error scraping reviews for Bank of Abyssinia (en/uk): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:30:40,270 - INFO - Retrying in 3 seconds... (Attempt 3/3)
+2025-06-04 22:30:43,274 - INFO - Attempting to scrape reviews for Bank of Abyssinia with lang=en, country=uk
+2025-06-04 22:30:43,277 - ERROR - Error scraping reviews for Bank of Abyssinia (en/uk): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:30:46,287 - INFO - Attempting to scrape reviews for Bank of Abyssinia with lang=en, country=ca
+2025-06-04 22:30:46,290 - ERROR - Error scraping reviews for Bank of Abyssinia (en/ca): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:30:46,297 - INFO - Retrying in 3 seconds... (Attempt 2/3)
+2025-06-04 22:30:49,304 - INFO - Attempting to scrape reviews for Bank of Abyssinia with lang=en, country=ca
+2025-06-04 22:30:49,306 - ERROR - Error scraping reviews for Bank of Abyssinia (en/ca): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:30:49,306 - INFO - Retrying in 3 seconds... (Attempt 3/3)
+2025-06-04 22:30:52,308 - INFO - Attempting to scrape reviews for Bank of Abyssinia with lang=en, country=ca
+2025-06-04 22:30:52,312 - ERROR - Error scraping reviews for Bank of Abyssinia (en/ca): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:30:55,318 - INFO - Attempting to scrape reviews for Bank of Abyssinia with lang=am, country=et
+2025-06-04 22:30:55,348 - ERROR - Error scraping reviews for Bank of Abyssinia (am/et): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:30:55,362 - INFO - Retrying in 3 seconds... (Attempt 2/3)
+2025-06-04 22:30:58,374 - INFO - Attempting to scrape reviews for Bank of Abyssinia with lang=am, country=et
+2025-06-04 22:30:58,384 - ERROR - Error scraping reviews for Bank of Abyssinia (am/et): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:30:58,391 - INFO - Retrying in 3 seconds... (Attempt 3/3)
+2025-06-04 22:31:01,404 - INFO - Attempting to scrape reviews for Bank of Abyssinia with lang=am, country=et
+2025-06-04 22:31:01,406 - ERROR - Error scraping reviews for Bank of Abyssinia (am/et): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:31:04,422 - INFO - Attempting to scrape reviews for Bank of Abyssinia with lang=am, country=us
+2025-06-04 22:31:04,425 - ERROR - Error scraping reviews for Bank of Abyssinia (am/us): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:31:04,428 - INFO - Retrying in 3 seconds... (Attempt 2/3)
+2025-06-04 22:31:07,436 - INFO - Attempting to scrape reviews for Bank of Abyssinia with lang=am, country=us
+2025-06-04 22:31:07,437 - ERROR - Error scraping reviews for Bank of Abyssinia (am/us): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:31:07,439 - INFO - Retrying in 3 seconds... (Attempt 3/3)
+2025-06-04 22:31:10,450 - INFO - Attempting to scrape reviews for Bank of Abyssinia with lang=am, country=us
+2025-06-04 22:31:10,451 - ERROR - Error scraping reviews for Bank of Abyssinia (am/us): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:31:13,456 - INFO - Attempting to scrape reviews for Bank of Abyssinia with lang=am, country=uk
+2025-06-04 22:31:13,458 - ERROR - Error scraping reviews for Bank of Abyssinia (am/uk): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:31:13,458 - INFO - Retrying in 3 seconds... (Attempt 2/3)
+2025-06-04 22:31:16,470 - INFO - Attempting to scrape reviews for Bank of Abyssinia with lang=am, country=uk
+2025-06-04 22:31:16,470 - ERROR - Error scraping reviews for Bank of Abyssinia (am/uk): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:31:16,471 - INFO - Retrying in 3 seconds... (Attempt 3/3)
+2025-06-04 22:31:19,476 - INFO - Attempting to scrape reviews for Bank of Abyssinia with lang=am, country=uk
+2025-06-04 22:31:19,477 - ERROR - Error scraping reviews for Bank of Abyssinia (am/uk): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:31:22,487 - INFO - Attempting to scrape reviews for Bank of Abyssinia with lang=am, country=ca
+2025-06-04 22:31:22,490 - ERROR - Error scraping reviews for Bank of Abyssinia (am/ca): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:31:22,490 - INFO - Retrying in 3 seconds... (Attempt 2/3)
+2025-06-04 22:31:25,499 - INFO - Attempting to scrape reviews for Bank of Abyssinia with lang=am, country=ca
+2025-06-04 22:31:25,501 - ERROR - Error scraping reviews for Bank of Abyssinia (am/ca): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:31:25,504 - INFO - Retrying in 3 seconds... (Attempt 3/3)
+2025-06-04 22:31:28,517 - INFO - Attempting to scrape reviews for Bank of Abyssinia with lang=am, country=ca
+2025-06-04 22:31:28,520 - ERROR - Error scraping reviews for Bank of Abyssinia (am/ca): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:31:32,937 - INFO - Found app: Apollo (Rating: 3.227723)
+2025-06-04 22:31:32,937 - INFO - Attempting to scrape reviews for Bank of Abyssinia using package com.boa.apollo
+2025-06-04 22:31:32,938 - INFO - Attempting to scrape reviews for Bank of Abyssinia with lang=en, country=et
+2025-06-04 22:31:32,938 - ERROR - Error scraping reviews for Bank of Abyssinia (en/et): reviews() got an unexpected keyword argument 'sleep_milliseconds'
+2025-06-04 22:31:32,938 - INFO - Retrying in 3 seconds... (Attempt 2/3)
+2025-06-04 22:31:37,693 - INFO - Starting the bank review scraping process
+2025-06-04 22:31:38,861 - INFO - Found app: Commercial Bank of Ethiopia (Rating: 4.34)
+2025-06-04 22:31:38,863 - INFO - Attempting to scrape reviews for Commercial Bank of Ethiopia using package com.combanketh.mobilebanking
+2025-06-04 22:31:38,863 - INFO - Attempting to scrape reviews for Commercial Bank of Ethiopia with lang=en, country=et
+2025-06-04 22:31:39,896 - INFO - Successfully scraped 400 reviews for Commercial Bank of Ethiopia (en/et)
+2025-06-04 22:31:41,904 - INFO - Attempting to scrape reviews for Commercial Bank of Ethiopia with lang=am, country=et
+2025-06-04 22:31:42,444 - INFO - Successfully scraped 52 reviews for Commercial Bank of Ethiopia (am/et)
+2025-06-04 22:32:37,301 - INFO - Found app: BoA Mobile (Rating: 2.73)
+2025-06-04 22:32:37,303 - INFO - Attempting to scrape reviews for Bank of Abyssinia using package com.boa.boaMobileBanking
+2025-06-04 22:32:37,305 - INFO - Attempting to scrape reviews for Bank of Abyssinia with lang=en, country=et
+2025-06-04 22:32:38,249 - INFO - Successfully scraped 400 reviews for Bank of Abyssinia (en/et)
+2025-06-04 22:32:40,254 - INFO - Attempting to scrape reviews for Bank of Abyssinia with lang=am, country=et
+2025-06-04 22:32:41,034 - INFO - Successfully scraped 12 reviews for Bank of Abyssinia (am/et)
+2025-06-04 22:32:45,108 - INFO - Found app: Dashen Bank (Rating: 4.090909)
+2025-06-04 22:32:45,108 - INFO - Attempting to scrape reviews for Dashen Bank using package com.dashen.dashensuperapp
+2025-06-04 22:32:45,115 - INFO - Attempting to scrape reviews for Dashen Bank with lang=en, country=et
+2025-06-04 22:32:46,285 - INFO - Successfully scraped 400 reviews for Dashen Bank (en/et)
+2025-06-04 22:32:48,301 - INFO - Attempting to scrape reviews for Dashen Bank with lang=am, country=et
+2025-06-04 22:32:48,662 - INFO - Retrying in 2 seconds... (Attempt 2/3)
+2025-06-04 22:32:50,671 - INFO - Attempting to scrape reviews for Dashen Bank with lang=am, country=et
+2025-06-04 22:32:51,400 - INFO - Retrying in 2 seconds... (Attempt 3/3)
+2025-06-04 22:32:53,408 - INFO - Attempting to scrape reviews for Dashen Bank with lang=am, country=et
