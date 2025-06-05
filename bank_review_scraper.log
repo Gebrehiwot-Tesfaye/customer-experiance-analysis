@@ -191,3 +191,25 @@
 2025-06-04 22:32:50,671 - INFO - Attempting to scrape reviews for Dashen Bank with lang=am, country=et
 2025-06-04 22:32:51,400 - INFO - Retrying in 2 seconds... (Attempt 3/3)
 2025-06-04 22:32:53,408 - INFO - Attempting to scrape reviews for Dashen Bank with lang=am, country=et
+2025-06-05 16:16:08,748 - INFO - Starting the bank review scraping process
+2025-06-05 16:16:10,049 - INFO - Found app: Commercial Bank of Ethiopia (Rating: 4.34)
+2025-06-05 16:16:10,049 - INFO - Attempting to scrape reviews for Commercial Bank of Ethiopia using package com.combanketh.mobilebanking
+2025-06-05 16:16:10,049 - INFO - Attempting to scrape reviews for Commercial Bank of Ethiopia with lang=en, country=et
+2025-06-05 16:16:11,288 - INFO - Successfully scraped 400 reviews for Commercial Bank of Ethiopia (en/et)
+2025-06-05 16:16:13,299 - INFO - Attempting to scrape reviews for Commercial Bank of Ethiopia with lang=am, country=et
+2025-06-05 16:16:13,922 - INFO - Successfully scraped 54 reviews for Commercial Bank of Ethiopia (am/et)
+2025-06-05 16:16:16,846 - INFO - Found app: BoA Mobile (Rating: 2.73)
+2025-06-05 16:16:16,849 - INFO - Attempting to scrape reviews for Bank of Abyssinia using package com.boa.boaMobileBanking
+2025-06-05 16:16:16,851 - INFO - Attempting to scrape reviews for Bank of Abyssinia with lang=en, country=et
+2025-06-05 16:16:17,998 - INFO - Successfully scraped 400 reviews for Bank of Abyssinia (en/et)
+2025-06-05 16:16:19,998 - INFO - Attempting to scrape reviews for Bank of Abyssinia with lang=am, country=et
+2025-06-05 16:16:20,438 - INFO - Successfully scraped 12 reviews for Bank of Abyssinia (am/et)
+2025-06-05 16:16:23,307 - INFO - Found app: Dashen Bank (Rating: 4.090909)
+2025-06-05 16:16:23,308 - INFO - Attempting to scrape reviews for Dashen Bank using package com.dashen.dashensuperapp
+2025-06-05 16:16:23,309 - INFO - Attempting to scrape reviews for Dashen Bank with lang=en, country=et
+2025-06-05 16:16:24,495 - INFO - Successfully scraped 400 reviews for Dashen Bank (en/et)
+2025-06-05 16:16:26,507 - INFO - Attempting to scrape reviews for Dashen Bank with lang=am, country=et
+2025-06-05 16:16:26,823 - INFO - Retrying in 2 seconds... (Attempt 2/3)
+2025-06-05 16:16:28,832 - INFO - Attempting to scrape reviews for Dashen Bank with lang=am, country=et
+2025-06-05 16:16:29,163 - INFO - Retrying in 2 seconds... (Attempt 3/3)
+2025-06-05 16:16:31,169 - INFO - Attempting to scrape reviews for Dashen Bank with lang=am, country=et
