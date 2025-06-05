@@ -41,8 +41,8 @@ project-root/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/bank-review-scraper.git
-cd bank-review-scraper
+git clone https://github.com/Gebrehiwot-Tesfaye/customer-experiance-analysis.git
+cd customer-experiance-analysis
 ```
 
 ### 2. Create a Virtual Environment (Optional but Recommended)
