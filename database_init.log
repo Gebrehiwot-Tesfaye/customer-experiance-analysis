@@ -1,0 +1,102 @@
+2025-06-06 16:08:59,875 - INFO - Initializing database...
+2025-06-06 16:08:59,974 - ERROR - Error during database initialization: No module named 'psycopg2'
+2025-06-06 16:10:11,711 - INFO - Initializing database...
+2025-06-06 16:10:12,172 - ERROR - Error during database initialization: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5432 failed: FATAL:  password authentication failed for user "bank"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-06 16:11:17,478 - INFO - Initializing database...
+2025-06-06 16:11:21,796 - ERROR - Error during database initialization: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5434 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5434 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-06 16:17:17,268 - INFO - Initializing database...
+2025-06-06 16:17:21,717 - ERROR - Error during database initialization: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 5434 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5434 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-06 16:25:56,562 - INFO - Initializing database...
+2025-06-06 16:25:56,680 - ERROR - Error during database initialization: (psycopg2.OperationalError) could not translate host name "0953@127.0.0.1" to address: A non-recoverable error occurred during a database lookup. 
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-06 16:26:58,243 - INFO - Initializing database...
+2025-06-06 16:26:58,353 - ERROR - Error during database initialization: (psycopg2.OperationalError) could not translate host name "0953@127.0.0.1" to address: A non-recoverable error occurred during a database lookup. 
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-06 16:29:12,310 - INFO - Initializing database...
+2025-06-06 16:29:12,568 - ERROR - Error initializing database: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 5432 failed: FATAL:  password authentication failed for user "bank"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-06 16:29:12,568 - ERROR - Error during database initialization: (psycopg2.OperationalError) connection to server at "127.0.0.1", port 5432 failed: FATAL:  password authentication failed for user "bank"
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-06 16:29:58,080 - INFO - Initializing database...
+2025-06-06 16:29:58,413 - INFO - Inserting bank information...
+2025-06-06 16:29:58,439 - INFO - Successfully inserted bank information
+2025-06-06 16:29:58,439 - INFO - Loading reviews from data\ethiopian_bank_reviews_20250604_2232.csv...
+2025-06-06 16:29:59,032 - ERROR - Error loading reviews: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type double precision: "5.1.0"
+LINE 1: ...services.', 2, '2025-05-25'::date, 'Google Play', '5.1.0', 1...
+                                                             ^
+
+[SQL: INSERT INTO reviews (bank_id, review_text, rating, review_date, source, app_version, thumbs_up_count, language, country, sentiment_score, sentiment_label, primary_theme, theme_confidence) SELECT p0::INTEGER, p1::TEXT, p2::FLOAT, p3::DATE, p4::VARCHAR ... 289618 characters truncated ... , p8, p9, p10, p11, p12, sen_counter) ORDER BY sen_counter RETURNING reviews.id, reviews.id AS id__1]
+[parameters: {'country__0': 'et', 'bank_id__0': 1, 'sentiment_label__0': None, 'source__0': 'Google Play', 'sentiment_score__0': None, 'rating__0': 2, 'app_version__0': '5.1.0', 'language__0': 'en', 'thumbs_up_count__0': 11, 'review_date__0': datetime.date(2025, 5, 25), 'primary_theme__0': None, 'review_text__0': 'The CBE app has been highly unreliable in recent weeks. It frequently fails to work properly on both Ethio Telecom and Safaricom networks, whether us ... (192 characters truncated) ...  of consistency is frustrating. I hope the issues are addressed soon, and that any non-technical influences are removed from such essential services.', 'theme_confidence__0': None, 'country__1': 'et', 'bank_id__1': 1, 'sentiment_label__1': None, 'source__1': 'Google Play', 'sentiment_score__1': None, 'rating__1': 4, 'app_version__1': '5.1.0', 'language__1': 'en', 'thumbs_up_count__1': 823, 'review_date__1': datetime.date(2025, 3, 20), 'primary_theme__1': None, 'review_text__1': "this new update(Mar 19,2025) is great in fixing bugs, stability and smooth experience I'll give u that but it came with a big shortcoming which is no ... (84 characters truncated) ... tion or anything within the app, i understand it's for security reasons but please bring that back, allow us to take screenshot we need that. Thanks.", 'theme_confidence__1': None, 'country__2': 'et', 'bank_id__2': 1, 'sentiment_label__2': None, 'source__2': 'Google Play', 'sentiment_score__2': None, 'rating__2': 5, 'app_version__2': '5.1.0', 'language__2': 'en', 'thumbs_up_count__2': 529, 'review_date__2': datetime.date(2025, 4, 4), 'primary_theme__2': None, 'review_text__2': "Good job to the CBE team on this mobile app! It's designed in a way that's simple and intuitive to navigate, which is great for everyone. It effectiv ... (43 characters truncated) ... eed to perform regularly. It's a practical and reliable tool that makes everyday banking much more convenient. Thank you for this useful application.", 'theme_confidence__2': None, 'country__3': 'et', 'bank_id__3': 1, 'sentiment_label__3': None, 'source__3': 'Google Play', 'sentiment_score__3': None, 'rating__3': 5, 'app_version__3': '5.1.0', 'language__3': 'en', 'thumbs_up_count__3': 24, 'review_date__3': datetime.date(2025, 5, 31), 'primary_theme__3': None ... 12900 parameters truncated ... 'sentiment_label__996': None, 'source__996': 'Google Play', 'sentiment_score__996': None, 'rating__996': 5, 'app_version__996': '1.0.14', 'language__996': 'en', 'thumbs_up_count__996': 2, 'review_date__996': datetime.date(2025, 4, 21), 'primary_theme__996': None, 'review_text__996': 'A Good and fast supper app thanks for dashen bank', 'theme_confidence__996': None, 'country__997': 'et', 'bank_id__997': 3, 'sentiment_label__997': None, 'source__997': 'Google Play', 'sentiment_score__997': None, 'rating__997': 1, 'app_version__997': '1.0.15', 'language__997': 'en', 'thumbs_up_count__997': 1, 'review_date__997': datetime.date(2025, 4, 28), 'primary_theme__997': None, 'review_text__997': 'Its slow when i try to see the Recent Transaction and stucked', 'theme_confidence__997': None, 'country__998': 'et', 'bank_id__998': 3, 'sentiment_label__998': None, 'source__998': 'Google Play', 'sentiment_score__998': None, 'rating__998': 5, 'app_version__998': '1.0.15', 'language__998': 'en', 'thumbs_up_count__998': 2, 'review_date__998': datetime.date(2025, 4, 21), 'primary_theme__998': None, 'review_text__998': 'easy &,simple to use', 'theme_confidence__998': None, 'country__999': 'et', 'bank_id__999': 3, 'sentiment_label__999': None, 'source__999': 'Google Play', 'sentiment_score__999': None, 'rating__999': 2, 'app_version__999': '1.0.14', 'language__999': 'en', 'thumbs_up_count__999': 1, 'review_date__999': datetime.date(2025, 4, 2), 'primary_theme__999': None, 'review_text__999': 'why does it ask me for both pin and opt even the opt is touch let alone both', 'theme_confidence__999': None}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-06-06 16:29:59,034 - ERROR - Error during database initialization: (psycopg2.errors.InvalidTextRepresentation) invalid input syntax for type double precision: "5.1.0"
+LINE 1: ...services.', 2, '2025-05-25'::date, 'Google Play', '5.1.0', 1...
+                                                             ^
+
+[SQL: INSERT INTO reviews (bank_id, review_text, rating, review_date, source, app_version, thumbs_up_count, language, country, sentiment_score, sentiment_label, primary_theme, theme_confidence) SELECT p0::INTEGER, p1::TEXT, p2::FLOAT, p3::DATE, p4::VARCHAR ... 289618 characters truncated ... , p8, p9, p10, p11, p12, sen_counter) ORDER BY sen_counter RETURNING reviews.id, reviews.id AS id__1]
+[parameters: {'country__0': 'et', 'bank_id__0': 1, 'sentiment_label__0': None, 'source__0': 'Google Play', 'sentiment_score__0': None, 'rating__0': 2, 'app_version__0': '5.1.0', 'language__0': 'en', 'thumbs_up_count__0': 11, 'review_date__0': datetime.date(2025, 5, 25), 'primary_theme__0': None, 'review_text__0': 'The CBE app has been highly unreliable in recent weeks. It frequently fails to work properly on both Ethio Telecom and Safaricom networks, whether us ... (192 characters truncated) ...  of consistency is frustrating. I hope the issues are addressed soon, and that any non-technical influences are removed from such essential services.', 'theme_confidence__0': None, 'country__1': 'et', 'bank_id__1': 1, 'sentiment_label__1': None, 'source__1': 'Google Play', 'sentiment_score__1': None, 'rating__1': 4, 'app_version__1': '5.1.0', 'language__1': 'en', 'thumbs_up_count__1': 823, 'review_date__1': datetime.date(2025, 3, 20), 'primary_theme__1': None, 'review_text__1': "this new update(Mar 19,2025) is great in fixing bugs, stability and smooth experience I'll give u that but it came with a big shortcoming which is no ... (84 characters truncated) ... tion or anything within the app, i understand it's for security reasons but please bring that back, allow us to take screenshot we need that. Thanks.", 'theme_confidence__1': None, 'country__2': 'et', 'bank_id__2': 1, 'sentiment_label__2': None, 'source__2': 'Google Play', 'sentiment_score__2': None, 'rating__2': 5, 'app_version__2': '5.1.0', 'language__2': 'en', 'thumbs_up_count__2': 529, 'review_date__2': datetime.date(2025, 4, 4), 'primary_theme__2': None, 'review_text__2': "Good job to the CBE team on this mobile app! It's designed in a way that's simple and intuitive to navigate, which is great for everyone. It effectiv ... (43 characters truncated) ... eed to perform regularly. It's a practical and reliable tool that makes everyday banking much more convenient. Thank you for this useful application.", 'theme_confidence__2': None, 'country__3': 'et', 'bank_id__3': 1, 'sentiment_label__3': None, 'source__3': 'Google Play', 'sentiment_score__3': None, 'rating__3': 5, 'app_version__3': '5.1.0', 'language__3': 'en', 'thumbs_up_count__3': 24, 'review_date__3': datetime.date(2025, 5, 31), 'primary_theme__3': None ... 12900 parameters truncated ... 'sentiment_label__996': None, 'source__996': 'Google Play', 'sentiment_score__996': None, 'rating__996': 5, 'app_version__996': '1.0.14', 'language__996': 'en', 'thumbs_up_count__996': 2, 'review_date__996': datetime.date(2025, 4, 21), 'primary_theme__996': None, 'review_text__996': 'A Good and fast supper app thanks for dashen bank', 'theme_confidence__996': None, 'country__997': 'et', 'bank_id__997': 3, 'sentiment_label__997': None, 'source__997': 'Google Play', 'sentiment_score__997': None, 'rating__997': 1, 'app_version__997': '1.0.15', 'language__997': 'en', 'thumbs_up_count__997': 1, 'review_date__997': datetime.date(2025, 4, 28), 'primary_theme__997': None, 'review_text__997': 'Its slow when i try to see the Recent Transaction and stucked', 'theme_confidence__997': None, 'country__998': 'et', 'bank_id__998': 3, 'sentiment_label__998': None, 'source__998': 'Google Play', 'sentiment_score__998': None, 'rating__998': 5, 'app_version__998': '1.0.15', 'language__998': 'en', 'thumbs_up_count__998': 2, 'review_date__998': datetime.date(2025, 4, 21), 'primary_theme__998': None, 'review_text__998': 'easy &,simple to use', 'theme_confidence__998': None, 'country__999': 'et', 'bank_id__999': 3, 'sentiment_label__999': None, 'source__999': 'Google Play', 'sentiment_score__999': None, 'rating__999': 2, 'app_version__999': '1.0.14', 'language__999': 'en', 'thumbs_up_count__999': 1, 'review_date__999': datetime.date(2025, 4, 2), 'primary_theme__999': None, 'review_text__999': 'why does it ask me for both pin and opt even the opt is touch let alone both', 'theme_confidence__999': None}]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2025-06-06 16:35:05,169 - INFO - Initializing database...
+2025-06-06 16:35:05,619 - INFO - Inserting bank information...
+2025-06-06 16:35:05,664 - ERROR - Error inserting banks: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "banks_name_key"
+DETAIL:  Key (name)=(Commercial Bank of Ethiopia) already exists.
+
+[SQL: INSERT INTO banks (name, package_name, short_name) SELECT p0::VARCHAR, p1::VARCHAR, p2::VARCHAR FROM (VALUES (%(name__0)s, %(package_name__0)s, %(short_name__0)s, 0), (%(name__1)s, %(package_name__1)s, %(short_name__1)s, 1), (%(name__2)s, %(package_name__2)s, %(short_name__2)s, 2)) AS imp_sen(p0, p1, p2, sen_counter) ORDER BY sen_counter RETURNING banks.id, banks.id AS id__1]
+[parameters: {'name__0': 'Commercial Bank of Ethiopia', 'package_name__0': 'com.combanketh.mobilebanking', 'short_name__0': 'CBE', 'name__1': 'Bank of Abyssinia', 'package_name__1': 'com.boa.boaMobileBanking', 'short_name__1': 'BOA', 'name__2': 'Dashen Bank', 'package_name__2': 'com.dashen.dashensuperapp', 'short_name__2': 'DASHEN'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-06-06 16:35:05,667 - ERROR - Error during database initialization: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "banks_name_key"
+DETAIL:  Key (name)=(Commercial Bank of Ethiopia) already exists.
+
+[SQL: INSERT INTO banks (name, package_name, short_name) SELECT p0::VARCHAR, p1::VARCHAR, p2::VARCHAR FROM (VALUES (%(name__0)s, %(package_name__0)s, %(short_name__0)s, 0), (%(name__1)s, %(package_name__1)s, %(short_name__1)s, 1), (%(name__2)s, %(package_name__2)s, %(short_name__2)s, 2)) AS imp_sen(p0, p1, p2, sen_counter) ORDER BY sen_counter RETURNING banks.id, banks.id AS id__1]
+[parameters: {'name__0': 'Commercial Bank of Ethiopia', 'package_name__0': 'com.combanketh.mobilebanking', 'short_name__0': 'CBE', 'name__1': 'Bank of Abyssinia', 'package_name__1': 'com.boa.boaMobileBanking', 'short_name__1': 'BOA', 'name__2': 'Dashen Bank', 'package_name__2': 'com.dashen.dashensuperapp', 'short_name__2': 'DASHEN'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-06-06 16:39:39,636 - INFO - Initializing database...
+2025-06-06 16:39:40,023 - INFO - Inserting bank information...
+2025-06-06 16:39:40,066 - ERROR - Error inserting banks: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "banks_name_key"
+DETAIL:  Key (name)=(Commercial Bank of Ethiopia) already exists.
+
+[SQL: INSERT INTO banks (name, package_name, short_name) VALUES (%(name__0)s, %(package_name__0)s, %(short_name__0)s), (%(name__1)s, %(package_name__1)s, %(short_name__1)s), (%(name__2)s, %(package_name__2)s, %(short_name__2)s)]
+[parameters: {'name__0': 'Commercial Bank of Ethiopia', 'package_name__0': 'com.combanketh.mobilebanking', 'short_name__0': 'CBE', 'name__1': 'Bank of Abyssinia', 'package_name__1': 'com.boa.boaMobileBanking', 'short_name__1': 'BOA', 'name__2': 'Dashen Bank', 'package_name__2': 'com.dashen.dashensuperapp', 'short_name__2': 'DASHEN'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-06-06 16:39:40,070 - ERROR - Error during database initialization: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "banks_name_key"
+DETAIL:  Key (name)=(Commercial Bank of Ethiopia) already exists.
+
+[SQL: INSERT INTO banks (name, package_name, short_name) VALUES (%(name__0)s, %(package_name__0)s, %(short_name__0)s), (%(name__1)s, %(package_name__1)s, %(short_name__1)s), (%(name__2)s, %(package_name__2)s, %(short_name__2)s)]
+[parameters: {'name__0': 'Commercial Bank of Ethiopia', 'package_name__0': 'com.combanketh.mobilebanking', 'short_name__0': 'CBE', 'name__1': 'Bank of Abyssinia', 'package_name__1': 'com.boa.boaMobileBanking', 'short_name__1': 'BOA', 'name__2': 'Dashen Bank', 'package_name__2': 'com.dashen.dashensuperapp', 'short_name__2': 'DASHEN'}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-06-06 16:44:31,077 - INFO - Initializing database...
+2025-06-06 16:44:31,547 - INFO - Inserting bank information...
+2025-06-06 16:44:31,564 - INFO - Banks already exist in database, skipping insertion
+2025-06-06 16:44:31,565 - INFO - Loading reviews from CSV...
+2025-06-06 16:44:31,567 - INFO - Reading CSV file from: C:\Users\tesfa\Desktop\Kiffiya AI\customer-experiance-analysis\data\ethiopian_bank_reviews_20250604_2232.csv
+2025-06-06 16:44:31,596 - INFO - Found 1240 reviews in CSV file
+2025-06-06 16:44:31,605 - INFO - Found banks in database: ['Commercial Bank of Ethiopia', 'Bank of Abyssinia', 'Dashen Bank']
+2025-06-06 16:44:32,056 - INFO - Inserted batch of 100 reviews. Total: 100/1240
+2025-06-06 16:44:32,103 - INFO - Inserted batch of 100 reviews. Total: 200/1240
+2025-06-06 16:44:32,142 - INFO - Inserted batch of 100 reviews. Total: 300/1240
+2025-06-06 16:44:32,179 - INFO - Inserted batch of 100 reviews. Total: 400/1240
+2025-06-06 16:44:32,217 - INFO - Inserted batch of 100 reviews. Total: 500/1240
+2025-06-06 16:44:32,271 - INFO - Inserted batch of 100 reviews. Total: 600/1240
+2025-06-06 16:44:32,326 - INFO - Inserted batch of 100 reviews. Total: 700/1240
+2025-06-06 16:44:32,375 - INFO - Inserted batch of 100 reviews. Total: 800/1240
+2025-06-06 16:44:32,406 - INFO - Inserted batch of 100 reviews. Total: 900/1240
+2025-06-06 16:44:32,440 - INFO - Inserted batch of 100 reviews. Total: 1000/1240
+2025-06-06 16:44:32,473 - INFO - Inserted batch of 100 reviews. Total: 1100/1240
+2025-06-06 16:44:32,523 - INFO - Inserted batch of 100 reviews. Total: 1200/1240
+2025-06-06 16:44:32,538 - INFO - Inserted batch of 40 reviews. Total: 1240/1240
+2025-06-06 16:44:32,540 - INFO - Successfully loaded 1240 reviews into database
