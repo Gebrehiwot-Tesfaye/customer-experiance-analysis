@@ -8,4 +8,5 @@ data/
 Thumbs.db 
 data/
 venv
+analyze_reviews.py
 
